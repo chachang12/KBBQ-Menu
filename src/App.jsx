@@ -9,16 +9,16 @@ function App() {
 
   const menuItems = {
     BBQ: [
-      { name: 'Bulgogi', price: 15 },
-      { name: 'Dakgalbi', price: 12 },
-      { name: 'LA Galbi', price: 20 },
-      { name: 'Samgyeosal', price: 18 },
-      { name: 'Buchaeasal', price: 17 },
+      { name: 'Bulgogi', price: 7.5 },
+      { name: 'Dakgalbi', price: 6.5 },
+      { name: 'LA Galbi', price: 12.5 },
+      { name: 'Samgyeosal', price: 6.5 },
+      { name: 'Buchaeasal', price: 8.5 },
     ],
     Sides: [
-      { name: 'Gyeran jjim', price: 5 },
-      { name: 'Soondubu', price: 6 },
-      { name: 'Scallion Kimchi', price: 4 },
+      { name: 'Gyeran jjim', price: 1.5 },
+      { name: 'Soondubu', price: 2.5 },
+      { name: 'Scallion Kimchi', price: 8.5 },
     ],
   };
 
@@ -67,7 +67,7 @@ function App() {
 
   return (
     <div className="bg-black bg-opacity-30 backdrop-blur-md text-white min-h-screen flex flex-col items-center m-4 rounded-xl outline outline-1 outline-gray-500">
-      <h1 className="text-4xl font-bold mb-8 mt-2">VT-KBBQ</h1>
+      <h1 className="text-4xl font-bold mt-4">VT-KBBQ</h1>
       <form onSubmit={handleSubmit} className="w-full max-w-lg p-6 rounded-lg shadow-lg">
         <div className="mb-4">
           <label className="block text-sm font-bold mb-2">
